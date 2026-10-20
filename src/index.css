@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f6fa;
+  color: #1a2a44;
+}
+
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
+
+.page h1 {
+  color: #0f2547;
+  margin-bottom: 12px;
+}

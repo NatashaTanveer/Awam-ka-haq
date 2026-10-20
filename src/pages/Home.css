@@ -1,0 +1,74 @@
+.hero {
+  min-height: 420px;
+  background: linear-gradient(90deg, rgba(15, 37, 71, 0.95) 40%, rgba(15, 37, 71, 0.6)),
+    url('../assets/hero.jpg') center / cover no-repeat;
+  background-color: #0f2547;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+  color: #fff;
+}
+
+.hero-content {
+  max-width: 620px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+
+.hero h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.hero-text {
+  color: #dfe6f3;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.hero-urdu {
+  color: #f5b942;
+  font-size: 18px;
+  margin-bottom: 28px;
+}
+
+.search-bar {
+  display: flex;
+  background: #fff;
+  border-radius: 10px;
+  padding: 6px;
+  gap: 8px;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px 14px;
+  font-size: 14px;
+}
+
+.search-bar select {
+  border: none;
+  border-left: 1px solid #ddd;
+  padding: 0 10px;
+  font-size: 13px;
+  background: #fff;
+}
+
+.search-bar button {
+  background: #0f2547;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background: #1b3a6b;
+}

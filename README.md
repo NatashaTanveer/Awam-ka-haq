@@ -1,19 +1,74 @@
-# React + Vite
+# Awam Ka Haq - Legal Aid & Lawyer Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Awam Ka Haq is a legal aid and lawyer portal built with React. It helps ordinary people learn about their legal rights and find lawyers easily.
 
-Currently, two official plugins are available:
+**GitHub Repository:** https://github.com/NatashaTanveer/Awam-ka-haq
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Pages
 
-## React Compiler
+- **Home**: hero section with a search bar
+- **Legal Rights**: cards explaining fundamental legal rights
+- **Find a Lawyer**: lawyer listing with search by name and filter by field
+- **Legal Aid**: free legal support services and an apply section
+- **Articles**: legal guidance articles in simple language
+- **About Us**: mission and statistics
+- **Login**: login form
+- **Register**: registration form for citizens and lawyers
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Tech Stack
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+- React
+- Vite
+- React Router DOM
+- CSS
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Clone the repository
+
+```bash
+git clone https://github.com/NatashaTanveer/Awam-ka-haq.git
+cd Awam-ka-haq
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Start the development server
+
+```bash
+npm run dev
+```
+
+4. Open the link shown in the terminal (for example `http://localhost:5173/`) in your browser.
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Navbar.jsx
+│   └── Navbar.css
+├── pages/
+│   ├── Home.jsx
+│   ├── LegalRights.jsx
+│   ├── FindLawyer.jsx
+│   ├── LegalAid.jsx
+│   ├── Articles.jsx
+│   ├── AboutUs.jsx
+│   ├── Login.jsx
+│   └── Register.jsx
+├── App.jsx
+└── main.jsx
+```
+
+## Note
+
+This project contains the screen designs only. Lawyer names, statistics and article content are sample data.
+
+## Author
+
+Natasha Tanveer
